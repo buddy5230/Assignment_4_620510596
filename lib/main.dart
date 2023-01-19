@@ -178,7 +178,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 children: [
                   Container(
                     child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceAround,
+                      mainAxisAlignment: MainAxisAlignment.end,
                       children: <Widget>[
                         Icon(Icons.wifi, size: 30,color: Colors.grey),
                         Text('   Free wifi', style: TextStyle(fontSize: 20,color: Colors.grey))
@@ -187,7 +187,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                   Container(
                     child: Row(
-                     mainAxisAlignment: MainAxisAlignment.spaceAround,
+                     mainAxisAlignment: MainAxisAlignment.end,
                       children: <Widget>[
                         Icon(Icons.pool, size: 30,color: Colors.grey),
                         Text('   Pool', style: TextStyle(fontSize: 20,color: Colors.grey))
@@ -215,7 +215,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                   Container(
                     child: Row(
-                      mainAxisAlignment: MainAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
                         Icon(Icons.directions_car_rounded, size: 30,color: Colors.grey),
                         Text('   Free Parking', style: TextStyle(fontSize: 20,color: Colors.grey))
